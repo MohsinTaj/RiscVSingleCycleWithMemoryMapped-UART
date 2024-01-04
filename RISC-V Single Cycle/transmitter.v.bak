@@ -1,0 +1,52 @@
+module UART_Transmitter(
+    input clk, // System clock input
+    input rst, // Reset input
+    input [7:0] tx_data, // Input data to be transmitted
+    input tick, // Baud rate tick input
+    output reg tx_out // UART Tx output
+);
+
+reg [3:0] bit_count; // Counter to keep track of the number of bits transmitted
+reg start_bit; // Start bit
+reg parity_bit; // Parity bit
+reg stop_bit; // Stop bit
+
+always @(posedge clk or posedge rst)
+begin
+    if (rst) begin
+        tx_out <= 1; // Idle state
+        bit_count <= 0;
+        start_bit <= 0;
+        parity_bit <= 0;
+        stop_bit <= 1;
+    end
+    else begin
+        if (tick) begin
+            case (bit_count)
+                0: begin // Start bit
+                    tx_out <= 0;
+                    start_bit <= tx_data[0];
+                end
+                1 to 8: begin // Data bits
+                    tx_out <= tx_data[bit_count - 1];
+                    parity_bit <= parity_bit ^ tx_data[bit_count - 1];
+                end
+                9: begin // Parity bit
+                    tx_out <= parity_bit;
+                end
+                10: begin // Stop bit
+                    tx_out <= 1;
+                    stop_bit <= 0;
+                end
+                11: begin // Idle state
+                    tx_out <= 1;
+                    bit_count <= 0;
+                end
+            endcase
+            bit_count <= bit_count + 1;
+        end
+    end
+end
+
+endmodule
+

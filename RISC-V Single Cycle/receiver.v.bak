@@ -1,0 +1,56 @@
+module UART_Receiver(
+    input clk, // System clock input
+    input rst, // Reset input
+    input rx_in, // UART Rx input
+    input tick, // Baud rate tick input
+    output reg [7:0] rx_data, // Received data output
+    output reg rx_ready // Flag indicating received data is ready
+);
+
+reg [3:0] bit_count; // Counter to keep track of the number of bits received
+reg start_bit_detected; // Flag to detect start bit
+reg parity_bit; // Parity bit
+reg stop_bit_detected; // Flag to detect stop bit
+reg [7:0] received_byte; // Temporary storage for received byte
+
+always @(posedge clk or posedge rst)
+begin
+    if (rst) begin
+        rx_data <= 8'b0;
+        rx_ready <= 0;
+        bit_count <= 0;
+        start_bit_detected <= 0;
+        parity_bit <= 0;
+        stop_bit_detected <= 0;
+    end
+    else begin
+        if (tick) begin
+            case (bit_count)
+                0: begin // Start bit
+                    if (rx_in == 0)
+                        start_bit_detected <= 1;
+                end
+                1 to 8: begin // Data bits
+                    received_byte[bit_count - 1] <= rx_in;
+                    parity_bit <= parity_bit ^ rx_in;
+                end
+                9: begin // Parity bit
+                    if (parity_bit == rx_in)
+                        start_bit_detected <= 0; // Valid parity
+                    else
+                        start_bit_detected <= 0; // Invalid parity, discard data
+                end
+                10: begin // Stop bit
+                    if (rx_in == 1 && start_bit_detected == 0) begin
+                        rx_data <= received_byte;
+                        rx_ready <= 1;
+                    end
+                end
+            endcase
+            bit_count <= bit_count + 1;
+        end
+    end
+end
+
+endmodule
+
