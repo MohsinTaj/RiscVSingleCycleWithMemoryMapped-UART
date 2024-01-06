@@ -12,7 +12,11 @@ module data_memory
 reg [7:0] ram [63:0];      // byte addressable memory
 wire [31:0] read_word;
 integer i;
-
+initial
+begin
+for (i=0;i<64;i=i+1)
+ram[i]=i;
+end
 // body
 always @(posedge clk, posedge reset)
 begin
@@ -23,7 +27,7 @@ begin
             // write operation
             if(MemWrite)
                 begin
-                    {ram[addr+3],ram[addr+2], ram[addr+1], ram[addr+0]}= write_data;
+                    {ram[addr+3],ram[addr+2], ram[addr+1], ram[addr]}= write_data;
                 end
         end
 end

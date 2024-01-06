@@ -10,582 +10,605 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/20.1
 vAddress_decoder
-Z0 !s110 1704399575
+!s110 1704450287
 !i10b 1
-!s100 n>[o_GGloD8_O2@>OY]<90
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-INKd26dFcV2F@Q9A2@gHhH0
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle
-w1704212766
+!s100 [9dQE1QFa84^1cc?fbbXK0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IU<k];]6CV<RemeZT_jRk]1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle
+w1704450272
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/addressdecode.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/addressdecode.v
-!i122 2391
-L0 1 25
-Z4 OV;L;2020.1;71
+!i122 2643
+L0 1 26
+Z3 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1704399575.000000
+!s108 1704450287.000000
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/addressdecode.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/addressdecode.v|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
+Z4 o-work work
+Z5 tCvgOpt 0
 n@address_decoder
 valu
-Z8 !s110 1704399576
+Z6 !s110 1704450290
 !i10b 1
 !s100 zIUKe7Dk00WXd<VD36lj53
-R1
+R0
 I4WBNZ^I31LL?D^<l^c55e2
+R1
 R2
-R3
 w1704225081
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ALU.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ALU.v
-!i122 2401
+!i122 2653
 L0 1 47
-R4
+R3
 r1
 !s85 0
 31
-Z9 !s108 1704399576.000000
+Z7 !s108 1704450289.000000
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ALU.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ALU.v|
 !i113 1
-R6
-R7
+R4
+R5
 valu_control
-Z10 !s110 1704399577
+R6
 !i10b 1
 !s100 jdEW4GK=8ZOCR3MCO1JTi0
-R1
+R0
 InVKaL`gCgWP_@mNjZIZgX1
+R1
 R2
-R3
 w1704220925
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ALUControlUnit.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ALUControlUnit.v
-!i122 2402
+!i122 2654
 L0 1 66
-R4
+R3
 r1
 !s85 0
 31
-R9
+Z8 !s108 1704450290.000000
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ALUControlUnit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ALUControlUnit.v|
 !i113 1
-R6
-R7
+R4
+R5
 vbaudrate
-R0
+Z9 !s110 1704450288
 !i10b 1
 !s100 :LIPE4g;J@0lZmHASf@GP0
-R1
+R0
 IXYbboK48oZX?mJFfeRkYj3
+R1
 R2
-R3
 w1704391122
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/baudrate.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/baudrate.v
-!i122 2392
+!i122 2644
 L0 4 32
-R4
+R3
 r1
 !s85 0
 31
-R5
+Z10 !s108 1704450288.000000
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/baudrate.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/baudrate.v|
 !i113 1
-R6
-R7
+R4
+R5
 vcontrol_unit
-R10
+R6
 !i10b 1
 !s100 K[`zW[E9G`R50d?KBaX:e3
-R1
+R0
 I39RVe]znXIaT9OK7^k^7J3
+R1
 R2
-R3
 w1704220941
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ControlUnit.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ControlUnit.v
-!i122 2403
+!i122 2655
 L0 1 84
-R4
+R3
 r1
 !s85 0
 31
-Z11 !s108 1704399577.000000
+R8
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ControlUnit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ControlUnit.v|
 !i113 1
-R6
-R7
+R4
+R5
 vcpu
-R10
+R6
 !i10b 1
 !s100 RG4O:eJk_YdmI`Ce>9T0J3
-R1
+R0
 Id^jMVfICoN2?4i?TADclc2
+R1
 R2
-R3
-w1704393667
+w1704425248
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/CPU.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/CPU.v
-!i122 2404
-L0 1 68
-R4
+!i122 2656
+Z11 L0 1 68
+R3
 r1
 !s85 0
 31
-R11
+R8
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/CPU.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/CPU.v|
 !i113 1
-R6
-R7
+R4
+R5
 vcpu_tb
-R8
+Z12 !s110 1704450289
 !i10b 1
 !s100 P@eMPIYM7]SdYT3:372]h0
-R1
+R0
 IYeTNMU5D3S7PT<idS63Ph1
+R1
 R2
-R3
 w1704394062
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/tb/CPU_tb.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/tb/CPU_tb.v
-!i122 2400
+!i122 2652
 L0 1 36
-R4
+R3
 r1
 !s85 0
 31
-R9
+R7
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/tb/CPU_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/tb/CPU_tb.v|
 !i113 1
-R6
-R7
+R4
+R5
+vcpuu
+!s110 1704424791
+!i10b 1
+!s100 gXYO[TKiCICoBC>gV69i<3
+R0
+IEd_4FnZ;=EfbS[S=4mh=02
+R1
+R2
+w1704424768
+8E:\EMBEDDEDELECTRONICS\Single-Cycle-RISC-V-Processor-main\Single-Cycle-RISC-V-Processor-main\RISC-V Single Cycle\rtl\CPU.v
+FE:\EMBEDDEDELECTRONICS\Single-Cycle-RISC-V-Processor-main\Single-Cycle-RISC-V-Processor-main\RISC-V Single Cycle\rtl\CPU.v
+!i122 2551
+R11
+R3
+r1
+!s85 0
+31
+!s108 1704424790.000000
+!s107 E:\EMBEDDEDELECTRONICS\Single-Cycle-RISC-V-Processor-main\Single-Cycle-RISC-V-Processor-main\RISC-V Single Cycle\rtl\CPU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\EMBEDDEDELECTRONICS\Single-Cycle-RISC-V-Processor-main\Single-Cycle-RISC-V-Processor-main\RISC-V Single Cycle\rtl\CPU.v|
+!i113 1
+R4
+R5
 vData_mem
-Z12 !s110 1704163090
+Z13 !s110 1704163090
 !i10b 1
 !s100 8B^>ZBCHz<=JVBeSiOXGJ2
-R1
+R0
 I@0;>k4OElbV:7ahK7To:[0
+R1
 R2
-R3
-Z13 w1704162603
-Z14 8C:/Users/PMLS/OneDrive/Documents/Memory_IO.v
-Z15 FC:/Users/PMLS/OneDrive/Documents/Memory_IO.v
+Z14 w1704162603
+Z15 8C:/Users/PMLS/OneDrive/Documents/Memory_IO.v
+Z16 FC:/Users/PMLS/OneDrive/Documents/Memory_IO.v
 !i122 264
 L0 43 17
-R4
+R3
 r1
 !s85 0
 31
-Z16 !s108 1704163090.000000
-Z17 !s107 mux2_1.v|C:/Users/PMLS/OneDrive/Documents/Memory_IO.v|
-Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PMLS/OneDrive/Documents/Memory_IO.v|
+Z17 !s108 1704163090.000000
+Z18 !s107 mux2_1.v|C:/Users/PMLS/OneDrive/Documents/Memory_IO.v|
+Z19 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PMLS/OneDrive/Documents/Memory_IO.v|
 !i113 1
-R6
-R7
+R4
+R5
 n@data_mem
 vdata_memory
-R10
+R6
 !i10b 1
-!s100 _IB0f?9@=hbmig[ccnTIY1
+!s100 DC5ahn3bo9d<a19=NNdzN3
+R0
+IFc8VeKR9oL73lRUFC2:Ah2
 R1
-Ifc1PO5n_acFmANFKP0;i60
 R2
-R3
-w1704224113
+w1704405711
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/DataMemory.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/DataMemory.v
-!i122 2405
-L0 1 35
-R4
+!i122 2657
+L0 1 39
+R3
 r1
 !s85 0
 31
-R11
+R8
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/DataMemory.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/DataMemory.v|
 !i113 1
-R6
-R7
+R4
+R5
 vimm_gen
-R10
+R6
 !i10b 1
 !s100 czYU_3:633KlAL2W`BNj^1
-R1
+R0
 IU@T4Y^zOSUAKciom4NS^C0
+R1
 R2
-R3
-Z19 w1704155849
+Z20 w1704155849
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ImmGen.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ImmGen.v
-!i122 2406
+!i122 2658
 L0 2 43
-R4
+R3
 r1
 !s85 0
 31
-R11
+R8
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ImmGen.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ImmGen.v|
 !i113 1
-R6
-R7
+R4
+R5
 vinstr_mem
-R10
+Z21 !s110 1704450291
 !i10b 1
 !s100 J:TnL@R:@<1z2Gn9YEZjT3
-R1
+R0
 IVTXl3klREc`XWCoE]aS0l0
+R1
 R2
-R3
 w1704221345
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/InstructionMemory.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/InstructionMemory.v
-!i122 2407
-Z20 L0 1 48
-R4
+!i122 2659
+Z22 L0 1 48
+R3
 r1
 !s85 0
 31
-R11
+Z23 !s108 1704450291.000000
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/InstructionMemory.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/InstructionMemory.v|
 !i113 1
-R6
-R7
+R4
+R5
 vIO
-R12
+R13
 !i10b 1
 !s100 =izM6;K9^nH7nn3dAbFQk2
-R1
+R0
 IJ:Pa0^[Mjm=Ho[8`=oA0]0
+R1
 R2
-R3
-R13
 R14
 R15
+R16
 !i122 264
 L0 62 15
-R4
+R3
 r1
 !s85 0
 31
-R16
 R17
 R18
+R19
 !i113 1
-R6
-R7
+R4
+R5
 n@i@o
 vio
 !s110 1704205986
 !i10b 1
 !s100 BZLDleK]d8dnomMi^_l<?2
-R1
+R0
 IJ@9BaK>^UMn]3LdNUWazl2
+R1
 R2
-R3
 w1704156653
-Z21 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/MemoryMapped.v
-Z22 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/MemoryMapped.v
+Z24 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/MemoryMapped.v
+Z25 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/MemoryMapped.v
 !i122 330
-Z23 L0 1 37
-R4
+Z26 L0 1 37
+R3
 r1
 !s85 0
 31
 !s108 1704205986.000000
-Z24 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/MemoryMapped.v|
-Z25 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/MemoryMapped.v|
+Z27 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/MemoryMapped.v|
+Z28 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/MemoryMapped.v|
 !i113 1
-R6
-R7
+R4
+R5
 vmem
-R0
+R9
 !i10b 1
 !s100 zjDhgfC1Ve`?Y2b8WI68o1
-R1
+R0
 I]T4hgHTfSFGClcN5Pg^Qe0
+R1
 R2
-R3
 w1704215885
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/DM.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/DM.v
-!i122 2393
+!i122 2645
 L0 1 27
-R4
+R3
 r1
 !s85 0
 31
-R5
+R10
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/DM.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/DM.v|
 !i113 1
-R6
-R7
+R4
+R5
 vMemory_IO
-Z26 !s110 1704399578
+R21
 !i10b 1
 !s100 b0mC_R;1iPdlLRFZ0@d7U0
-R1
+R0
 Il37^>5Q=aD?gPFT7J=2T[3
+R1
 R2
-R3
 w1704216651
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/IO.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/IO.v
-!i122 2410
+!i122 2662
 L0 1 24
-R4
+R3
 r1
 !s85 0
 31
-Z27 !s108 1704399578.000000
+R23
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/IO.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/IO.v|
 !i113 1
-R6
-R7
+R4
+R5
 n@memory_@i@o
 vmemorymapped
-R0
+R9
 !i10b 1
 !s100 0BDz49H9OaFQK^gZhN0L@3
-R1
+R0
 I^<DP0U4I[jkNiSU8VJ8B?3
+R1
 R2
-R3
 w1704398571
-R21
-R22
-!i122 2394
+R24
+R25
+!i122 2646
 L0 1 64
-R4
+R3
 r1
 !s85 0
 31
-R5
-R24
-R25
+R10
+R27
+R28
 !i113 1
-R6
-R7
+R4
+R5
 vmemorymappedtb
-R26
+R21
 !i10b 1
 !s100 oi08A]C[R;zC8HzVU`ED72
-R1
+R0
 IMFEc`ALRiQlg9XUJQh?Q=1
+R1
 R2
-R3
 w1704387617
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/Memorymappedtb.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/Memorymappedtb.v
-!i122 2411
+!i122 2663
 L0 3 29
-R4
+R3
 r1
 !s85 0
 31
-R27
+R23
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/Memorymappedtb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/Memorymappedtb.v|
 !i113 1
-R6
-R7
+R4
+R5
 vmux2_1
-R0
+R9
 !i10b 1
 !s100 Ij?iDYN:m@f:3;H^3Q@fF0
-R1
+R0
 IM4ZGZP0`GI?K]?adzYz_D1
+R1
 R2
-R3
 w1704216487
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/mux2_1.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/mux2_1.v
-!i122 2395
+!i122 2647
 L0 1 6
-R4
+R3
 r1
 !s85 0
 31
-R5
+R10
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/mux2_1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/mux2_1.v|
 !i113 1
-R6
-R7
+R4
+R5
 vpc
-R10
+R21
 !i10b 1
 !s100 4Eh4FGf`l5K=W?8:NIDI>2
-R1
+R0
 IY1fPkgnGUTECII`:l0o^[2
+R1
 R2
-R3
-R19
+R20
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ProgramCounter.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ProgramCounter.v
-!i122 2408
+!i122 2660
 L0 1 18
-R4
+R3
 r1
 !s85 0
 31
-R11
+R23
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ProgramCounter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ProgramCounter.v|
 !i113 1
-R6
-R7
+R4
+R5
 vreceiver
-R8
+R9
 !i10b 1
 !s100 `6f^5dQT19gfMREDSZOg<0
-R1
+R0
 IB54aOTiQSWAfM^_dS]z5>1
+R1
 R2
-R3
 w1704391126
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/receiver.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/receiver.v
-!i122 2396
+!i122 2648
 L0 1 71
-R4
+R3
 r1
 !s85 0
 31
-R5
+R10
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/receiver.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/receiver.v|
 !i113 1
-R6
-R7
+R4
+R5
 vregister_file
-R26
+R21
 !i10b 1
 !s100 b?2OZm<EdX11Hge83zjJi0
-R1
+R0
 IkBEkXeJlcOV6TXNa7VMR41
+R1
 R2
-R3
 w1704221660
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/RegisterFile.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/RegisterFile.v
-!i122 2409
-R20
-R4
+!i122 2661
+R22
+R3
 r1
 !s85 0
 31
-R11
+R23
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/RegisterFile.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/RegisterFile.v|
 !i113 1
-R6
-R7
+R4
+R5
 vtestbench
-R12
+R13
 !i10b 1
 !s100 3HBMmLSgazBW0CNV>]BE:2
-R1
+R0
 IF>Nje>c;LeWad1EQA1?P>3
+R1
 R2
-R3
-R13
 R14
 R15
+R16
 !i122 264
 L0 93 38
-R4
+R3
 r1
 !s85 0
 31
-R16
 R17
 R18
+R19
 !i113 1
-R6
-R7
+R4
+R5
 vtransmitter
-R8
+R12
 !i10b 1
 !s100 Y7:l:EkJ4LL14A>h^2;eK2
-R1
+R0
 IbBKL>i89F@CkGBA1EVX7I3
+R1
 R2
-R3
 w1704391124
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/transmitter.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/transmitter.v
-!i122 2397
+!i122 2649
 L0 1 61
-R4
+R3
 r1
 !s85 0
 31
-R9
+R7
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/transmitter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/transmitter.v|
 !i113 1
-R6
-R7
+R4
+R5
 vuart
-R8
+R12
 !i10b 1
 !s100 IJAh<L;A@eLk:3D[iUQT53
-R1
+R0
 IMH>IAICbI1B:SlN]<cf6;2
+R1
 R2
-R3
-w1704205496
+w1704406796
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/UART.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/UART.v
-!i122 2398
-R23
-R4
+!i122 2650
+R26
+R3
 r1
 !s85 0
 31
-R9
+R7
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/UART.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/UART.v|
 !i113 1
-R6
-R7
+R4
+R5
 vuart_TB
-R8
+R12
 !i10b 1
 !s100 WZZJ8B@W5ZY`lY:C6N9a>1
-R1
+R0
 IElNVSITeK4N1PAFT06lXJ1
+R1
 R2
-R3
 w1704390028
 8E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/uarttb.v
 FE:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/uarttb.v
-!i122 2399
+!i122 2651
 L0 1 52
-R4
+R3
 r1
 !s85 0
 31
-R9
+R7
 !s107 E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/uarttb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/uarttb.v|
 !i113 1
-R6
-R7
+R4
+R5
 nuart_@t@b

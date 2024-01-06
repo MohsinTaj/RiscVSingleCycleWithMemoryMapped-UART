@@ -23,13 +23,13 @@ begin
             // write operation
             if(MemWrite)
                 begin
-                    {ram[addr+3],ram[addr+2], ram[addr+1], ram[addr+0]}= write_data;
+                    {ram[addr+3],ram[addr+2], ram[addr+1], ram[addr]}= write_data;
                 end
         end
 end
 
 // read
 assign ram_output = {ram[addr+3], ram[addr+2], ram[addr+1], ram[addr]};
-assign read_data = MemRead ? ram_output : 32'b0;
+assign read_data =  ram_output ;
 
 endmodule

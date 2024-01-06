@@ -1,4 +1,4 @@
-module cpu
+module cpuu
 // IO ports
 (
     input wire clk, reset,enable,ready_clr
@@ -63,8 +63,6 @@ assign reg_write_data = MemtoReg ? MemData : ALUResult;
 //MemoryMappedIO
 memorymapped mm(.memWrite(MemWrite),.clk(clk),.address(ALUResult),.WriteData(reg_read_data_2),.ReadData(MemData),.enable(enable)
 ,.ready_clr(ready_clr)
-
-
 );
 
 endmodule

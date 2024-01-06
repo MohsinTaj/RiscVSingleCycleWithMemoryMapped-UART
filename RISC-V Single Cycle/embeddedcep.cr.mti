@@ -5,13 +5,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	mem
 
-} {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ControlUnit.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ControlUnit.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module control_unit
-
-Top level modules:
-	control_unit
-
 } {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/addressdecode.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/addressdecode.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Address_decoder
@@ -19,12 +12,26 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Address_decoder
 
+} {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ControlUnit.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ControlUnit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module control_unit
+
+Top level modules:
+	control_unit
+
 } {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ALU.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/ALU.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module alu
 
 Top level modules:
 	alu
+
+} {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/UART.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/UART.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module uart
+
+Top level modules:
+	uart
 
 } {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/DataMemory.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/DataMemory.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -39,13 +46,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	alu_control
-
-} {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/UART.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/UART.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module uart
-
-Top level modules:
-	uart
 
 } {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/transmitter.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/transmitter.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -82,13 +82,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	pc
 
-} {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/tb/CPU_tb.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/tb/CPU_tb.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module cpu_tb
-
-Top level modules:
-	cpu_tb
-
 } {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/uarttb.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/uarttb.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module uart_TB
@@ -96,12 +89,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	uart_TB
 
-} {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/InstructionMemory.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/InstructionMemory.v}
+} {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/tb/CPU_tb.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/tb/CPU_tb.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module instr_mem
+-- Compiling module cpu_tb
 
 Top level modules:
-	instr_mem
+	cpu_tb
 
 } {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/mux2_1.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/mux2_1.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -109,6 +102,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	mux2_1
+
+} {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/InstructionMemory.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/rtl/InstructionMemory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module instr_mem
+
+Top level modules:
+	instr_mem
 
 } {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/receiver.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/receiver.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -124,6 +124,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	register_file
 
+} {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/IO.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/IO.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memory_IO
+
+Top level modules:
+	Memory_IO
+
 } {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/baudrate.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/baudrate.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module baudrate
@@ -131,11 +138,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	baudrate
 
-} {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/IO.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/IO.v}
+} {} {}} {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/MemoryMapped.v} {1 {vlog -work work -stats=none {E:/EMBEDDEDELECTRONICS/Single-Cycle-RISC-V-Processor-main/Single-Cycle-RISC-V-Processor-main/RISC-V Single Cycle/MemoryMapped.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Memory_IO
+-- Compiling module memorymapped
 
 Top level modules:
-	Memory_IO
+	memorymapped
 
 } {} {}}

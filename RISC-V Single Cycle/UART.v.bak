@@ -11,7 +11,7 @@ module uart(input wire [7:0] data_in, //input data
 				output [7:0] LEDR,
 				output wire Tx2//output data
 				);		
-assign LEDR = data_in;
+assign data_out = data_in;
 assign Tx2 = Tx;
 wire Txclk_en, Rxclk_en;
 baudrate uart_baud(	.clk_50m(clk_50m),
@@ -32,5 +32,6 @@ receiver uart_Rx(	.Rx(Rx),
 						.clken(Rxclk_en), //We assign Tx clock to enable clock 
 						.data(data_out)
 						);
+
 
 endmodule

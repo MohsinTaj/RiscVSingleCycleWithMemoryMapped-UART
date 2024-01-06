@@ -4,7 +4,7 @@ module Address_decoder #(parameter Width = 32)(
     output reg WEM, WE1,
     output reg [1:0] RDSet
 );
-data_memory addrdecoder(.address(addr),.memWrite(MemWrite));
+
     always @* begin
         if (memWrite) begin
             if (address == 32'd31) begin
